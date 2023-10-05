@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Basic annotations - floor
+Basic annotations - add
 """
 
 
-def floor(n: float) -> int:
+def concat(str1: str, str2: str) -> str:
     """
-    return floor of the number
+    function to concat two strings
     """
-    return int(n)
+    return str1 + str2
