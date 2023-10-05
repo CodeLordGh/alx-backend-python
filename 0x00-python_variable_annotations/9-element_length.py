@@ -1,12 +1,12 @@
-#!/bin/bas/env python3
+#!/usr/bin/env python3
 """
- duck type an iterable object
+Let's duck type an iterable object
 """
+from typing import Iterable, Sequence, List, Tuple
 
-from typing import Iterable, List, Tuple, Sequence
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
-    return the lengh
+    length of element
     """
-    return[(i, len(i)) for i in lst]
+    return [(i, len(i)) for i in lst]
